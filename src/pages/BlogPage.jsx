@@ -1,9 +1,26 @@
 import HeaderComponent from "../components/HeaderComponent"
+import "../assets/BlogPage.css"
 function BlogPage() {
+  const handleSubmit = (e)=>{
+    e.preventDefault();
+    console.log("El formulario se ha enviado");
+  }
   return (
     <>
       <HeaderComponent></HeaderComponent>
-      <div>BlogPage</div>
+      <div id="contenido">BlogPage
+        <form action="">
+          <fieldset>
+            <label htmlFor="username">Nombre</label>
+            <input type="text" id="username" />
+          </fieldset>
+          <fieldset>
+            <label htmlFor="comentario">Comentario</label>
+            <input type="text" id="comentario" />
+          </fieldset>
+          <button onClick={handleSubmit}>Enviar</button>
+        </form>
+      </div>
     </>
   )
 }
