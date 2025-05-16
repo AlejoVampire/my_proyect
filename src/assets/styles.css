@@ -11,6 +11,25 @@ body {
   align-items: center;
   padding: 20px;
 }
+#homeC {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  margin: 40px auto;
+  gap: 20px;
+  text-align: center;
+}
+#homeC hr {
+  width: 100%;
+  border: none;
+  border-top: 1px solid #999;
+}
 form {
   background-color: #fff;
   padding: 20px;

@@ -8,9 +8,11 @@ function Homepage() {
   return (
     <>
       <HeaderComponent></HeaderComponent>
-      <div>Homepage</div>
-      <hr />
-      <button onClick={saySomething}>Pulsa Click</button>
+      <div id="homeC">
+        Homepage
+        <hr />
+        <button onClick={saySomething}>Pulsa Click</button>
+      </div>
     </>
     
   )

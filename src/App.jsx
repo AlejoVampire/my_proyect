@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Route, Routes } from 'react-router-dom'
-import Homepage from './pages/Homepage'
+import Homepage from './pages/HomePage'
 import BlogPage from './pages/BlogPage'
 
 function App() {

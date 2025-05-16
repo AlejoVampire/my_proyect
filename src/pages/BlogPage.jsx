@@ -1,5 +1,4 @@
 import HeaderComponent from "../components/HeaderComponent"
-import "../assets/BlogPage.css"
 function BlogPage() {
   const handleSubmit = (e)=>{
     e.preventDefault();
